@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<a href="olvidaste_tu_contaseña.html"></a>
+</li>
+
+<head>
+    <center>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recuperar Contraseña</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="recuperar">
+        <h2>Recuperar Contraseña</h2>
+        <form id="recoverForm">
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Recuperar</button>
+        </form>
+    </section>
+
+
+    <div id="forgot-password" class="modal">
+        <div class="modal-content">
+
+            <h2>Restablecer Contraseña</h2>
+            <input type="email" id="recovery-email" placeholder="Correo de Recuperación" required>
+            <button onclick="sendRecoveryEmail()">Enviar</button>
+        </div>
+    </div>
+
+</html>
+</center>
